@@ -1,0 +1,50 @@
+body {
+    /* ".." lembrar disso para ter acesso a arquivos*/
+    background-image: url(../assets/background1.webp);
+    background-repeat: no-repeat;
+    /*repeat-x e repeat-y*/
+    /*background-size: cover;*/
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#explicar {
+    color: darkblue;
+}
+
+#subtitulo {
+    color: green;
+}
+
+#titulo {
+    color: #266d99;
+}
+
+
+/*a= alfa mostra a opacidade de 0 a 1 de um elemento (quarto número no rgba)*/
+
+.tragediaVermelha {
+    color: red;
+}
+
+.info {
+    color: blueviolet;
+}
+
+#tragediaVermelha {
+    color: blue;
+}
+
+#texto {
+    background-image: url("../assets/bufus.jpg");
+}
+
+
+/*para declarar uma id utiliza-se do # (hashtag)
+para declarar uma class se utiliza-se do . (ponto)*/
+
+
+/*Diferença entre id e class::
+id: você só pode usar em um elemento
+class: pode se utilizar em varios elementos (com o mesmo nome)
+*/
